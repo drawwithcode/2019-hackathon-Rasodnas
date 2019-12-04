@@ -130,3 +130,7 @@ function viz2() {
 function swapViz() {
   if (flagViz) { flagViz = false; } else if(flagViz == false) { flagViz = true; }
 }
+
+function windowResized() {
+	resizeCanvas(windowWidth, windowHeight);
+}
